@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".Win">
+
+
+<ImageView
+    android:id="@+id/passGame"
+    android:scaleType="centerCrop"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:src="@drawable/passgame"
+    />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tPassGame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="150dp"
+            android:layout_centerHorizontal="true"
+            android:text="恭喜通关"
+            android:textColor="#000000"
+            android:textSize="40dp"
+            />
+        <Button
+            android:id="@+id/nextlevel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@id/b_finish"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp"
+            android:text="下一关" />
+
+        <Button
+            android:id="@+id/b_finish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textSize="20dp"
+            android:layout_marginBottom="100dp"
+            android:layout_alignParentBottom="true"
+            android:text="退出" />
+
+
+    </RelativeLayout>
+
+</FrameLayout>

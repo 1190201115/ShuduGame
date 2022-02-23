@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    >
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="\n点击音效"
+    android:textSize="20dp"
+    />
+    <Switch
+        android:id="@+id/s_music"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOn="开"
+        android:textOff="关"
+        android:textSize="20dp"
+        android:showText="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="\n其他音效"
+        android:textSize="20dp"
+        />
+    <Switch
+        android:id="@+id/s_otherMusic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOn="开"
+        android:textOff="关"
+        android:switchMinWidth="40dp"
+        android:switchPadding="10dp"
+        android:textSize="20dp"
+        android:showText="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="\n背景音乐"
+        android:textSize="20dp"
+        />
+    <Switch
+        android:id="@+id/s_backMusic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOn="开"
+        android:textOff="关"
+        android:textSize="20dp"
+        android:showText="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/black_thread1"
+        android:text="\n\n\n规则说明：\n
+    确保每行、每列，以及每个九宫格内的数字都是从1~9且不重复\n\n
+查错功能说明：\n
+    查错的优先级为，未填满>行错误>列错误>九宫格错误，会以红线圈起的形式指示错误的区域。\n
+"
+        />
+
+    <Button
+        android:id="@+id/b_back"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="返回主菜单"
+        />
+</LinearLayout>

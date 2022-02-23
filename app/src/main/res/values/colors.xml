@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="background_white">#FFFFFF</color>
+    <color name="black_thread1">#000000</color>
+    <color name="orange_thread2">#FF5722</color>
+    <color name="grey_thread3">#A3C6D5EF</color>
+    <color name="shudu_grey">#6456648f</color>
+    <color name="shudu_gold">#EBFF3B</color>
+    <color name="kb_grey">#708590</color>
+    <color name="shudu_blue">#2196F3</color>
+    <color name="fill_num">#4821F3</color>
+    <color name="touming">#00000000</color>
+    <color name="error">#E91E63</color>
+</resources>
